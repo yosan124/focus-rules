@@ -1,22 +1,17 @@
-{
-  "version": 1,
-  "service_enabled": true,
-  "blocked_rules": [
-    {
-      "package_name": "com.instagram.android",
-      "target_views": ["clips_view_pager", "reels_viewer"],
-      "action": "open_spotify"
-    },
-    {
-      "package_name": "com.google.android.youtube",
-      "target_views": ["shorts_player", "reel_recycler_view"],
-      "action": "open_spotify"
-    },
-    {
-      "package_name": "com.zhiliaoapp.musically",
-      "target_views": [],
-      "action": "open_spotify"
-    }
-  ],
-  "redirect_package": "com.spotify.music"
-}
+[
+  {
+    "package_name": "com.instagram.android",
+    "target_views": ["clips_view_pager", "reels_viewer"],
+    "action": "open_spotify"
+  },
+  {
+    "package_name": "com.google.android.youtube",
+    "target_views": ["shorts_player", "reel_recycler_view"],
+    "action": "open_spotify"
+  },
+  {
+    "package_name": "com.zhiliaoapp.musically",
+    "target_views": [],
+    "action": "open_spotify"
+  }
+]
